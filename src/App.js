@@ -4,14 +4,40 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>poo poop pee pee</p>
-      </header>
       <div className="Body-content">
-        <p>kaka</p>
+
+
+        <div className="TextBoxes" id="preview">
+          <div id="decalBar">
+            Preview
+          </div>
+          <div id="boxcontent">
+            preview text box with placeholder
+          </div>
+        </div>
+
+
+
+        <div id="spacer"></div>
+        
+
+
+        <div className="TextBoxes" id="editor">
+          <div id="decalBar">
+            Editor
+          </div>
+          <div id="boxcontent">
+            editor text box also with placeholder
+          </div>
+        </div>
+
+
       </div>
     </div>
   );
 }
 
 export default App;
+
+
+
