@@ -26,9 +26,9 @@ function App() {
           <div id="decalBar">
             Editor
           </div>
-          <div id="boxcontent">
+          <textarea id="boxcontent">
             editor text box also with placeholder
-          </div>
+          </textarea>
         </div>
 
 
