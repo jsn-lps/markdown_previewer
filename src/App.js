@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-// import ReactDOM from 'react-dom/client';
 import {marked} from 'marked';
 
 
@@ -21,7 +20,6 @@ class MarkupEditor extends React.Component {
     super(props);
     this.state = {
       input: placeholder,
-      placeholder: "Monkey ass"
     }
 
     this.textChange = this.textChange.bind(this)
