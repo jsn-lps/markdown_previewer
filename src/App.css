@@ -40,7 +40,7 @@
   font-size: 1.4rem;
 }
 
-#boxcontent {
+#editor {
   font-size: 1rem;
   color: rgb(20, 20, 20);
   padding: 1%;
@@ -68,15 +68,26 @@
   border-radius: 10px;
   box-shadow: 0 8px 6px -6px black;
   background-color: whitesmoke;
+  margin: auto;
 }
 
 #preview {
+  font-size: 1rem;
+  color: rgb(20, 20, 20);
+  padding: 1%;
   width: 100%;
-  height: 60%;
+  height: 100%;
+  resize: none;
+  background-color: whitesmoke;
 }
 
-#editor {
+#previewBox {
+  width: 100%;
+  height: 60%;
+  margin: auto;
+}
+
+#editorBay {
   width: 80%;
   height: 35%;
-  margin: auto;
 }
